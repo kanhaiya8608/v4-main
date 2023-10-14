@@ -245,10 +245,12 @@ const Jobs = () => {
   };
 
   return (
-    <StyledJobsSection id="jobs" ref={revealContainer} data-aos="fade-up">
-      <h2 className="numbered-heading">Where I’ve Worked</h2>
+    <StyledJobsSection id="jobs" ref={revealContainer}>
+      <h2 data-aos="fade-up" className="numbered-heading">
+        Where I’ve Worked
+      </h2>
 
-      <div className="inner">
+      <div data-aos="fade-up" data-aos-delay={100} className="inner">
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>
           {jobsData &&
             jobsData.map(({ node }, i) => {

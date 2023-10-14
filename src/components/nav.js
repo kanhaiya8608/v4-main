@@ -222,12 +222,14 @@ const Nav = ({ isHome }) => {
               <ol>
                 {navLinks &&
                   navLinks.map(({ url, name }, i) => (
-                    <li key={i}>
+                    <li data-aos="fade-down" data-aos-delay={`${i * 100}`} key={i}>
                       <Link to={url}>{name}</Link>
                     </li>
                   ))}
               </ol>
-              <div>{ResumeLink}</div>
+              <div data-aos="fade-down" data-aos-delay={500}>
+                {ResumeLink}
+              </div>
             </StyledLinks>
 
             <Menu />
