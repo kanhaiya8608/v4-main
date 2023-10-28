@@ -5,7 +5,7 @@ import styled from 'styled-components';
 import { srConfig } from '@config';
 import sr from '@utils/sr';
 import { Icon } from '@components/icons';
-import { usePrefersReducedMotion, useAOS } from '@hooks';
+import { usePrefersReducedMotion } from '@hooks';
 
 const StyledProjectsSection = styled.section`
   display: flex;
@@ -196,8 +196,6 @@ const Projects = () => {
   const revealProjects = useRef([]);
   const prefersReducedMotion = usePrefersReducedMotion();
 
-  useAOS();
-
   useEffect(() => {
     if (prefersReducedMotion) {
       return;
@@ -267,15 +265,9 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 data-aos="fade-up" ref={revealTitle}>
-        Other Noteworthy Projects
-      </h2>
+      <h2 ref={revealTitle}>Other Noteworthy Projects</h2>
 
-      <Link
-        data-aos="fade-up"
-        className="inline-link archive-link"
-        to="/archive"
-        ref={revealArchiveLink}>
+      <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
         view the archive
       </Link>
 
@@ -284,9 +276,7 @@ const Projects = () => {
           <>
             {projectsToShow &&
               projectsToShow.map(({ node }, i) => (
-                <StyledProject data-aos="fade-up" data-aos-delay={`${i * 50}`} key={i}>
-                  {projectInner(node)}
-                </StyledProject>
+                <StyledProject key={i}>{projectInner(node)}</StyledProject>
               ))}
           </>
         ) : (
