@@ -1,5 +1,5 @@
 ---
-date: '2021-10-20'
+date: '2023-10-20'
 title: 'Fitpeo Dashboard'
 github: 'https://github.com/kanhaiya8608/fitpeo_assess'
 external: 'https://fitpeo-assess.vercel.app/'
