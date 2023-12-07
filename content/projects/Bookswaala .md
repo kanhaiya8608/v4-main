@@ -12,4 +12,4 @@ tech:
 showInProjects: true
 ---
 
-: Crafted a captivating e-commerce site with cutting-edge technologies (React.js, usereducer, tailwind, JSX). Showcasing a diverse book collection with advanced filters, the polished interface exudes professionalism.
+Crafted a captivating e-commerce site with cutting-edge technologies (React.js, usereducer, tailwind, JSX). Showcasing a diverse book collection with advanced filters, the polished interface exudes professionalism.
