@@ -5,7 +5,7 @@ github: 'https://github.com/kanhaiya8608/kluster_asses'
 external: 'https://kluster-assess.vercel.app/'
 tech:
   - React
-  - Redux
+  - Context API
   - Tailwind
   - HTML
   - CSS
