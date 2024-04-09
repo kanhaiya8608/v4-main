@@ -9,7 +9,7 @@ tech:
   - Tailwind
   - Javascript
   - HTML
-  - CSS
+  - Redux
 showInProjects: true
 ---
 
