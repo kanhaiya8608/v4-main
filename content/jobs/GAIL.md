@@ -3,7 +3,7 @@ date: '2018-05-14'
 title: 'Project Intern'
 company: 'GAIL (India) Ltd.'
 location: 'Uttar Pradesh, IN'
-range: 'June - July 2018'
+range: 'June - July 2018 | Intern'
 url: 'https://www.gailonline.com/'
 ---
 
