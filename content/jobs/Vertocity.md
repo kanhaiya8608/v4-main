@@ -3,7 +3,7 @@ date: '2021-11-01'
 title: 'Software Engineer'
 company: 'Vertocity'
 location: 'Hyderabad, IN'
-range: 'November 2021 - November 2022'
+range: 'November 2021 - November 2022 | Full-time'
 url: 'https://www.vertocity.com/'
 ---
 
