@@ -1,5 +1,5 @@
 ---
-date: '1'
+date: '3'
 title: 'Kanban Dashboard'
 cover: './images/Kanban Dashboard.png'
 github: 'https://github.com/kanhaiya8608/Mercor'
