@@ -1,7 +1,7 @@
 ---
 date: '1'
 title: Kokkendin E-commerce website'
-cover: './images/reactquiz.webp'
+cover: './images/kokkendin.png'
 github: ''
 external: 'https://kokkendin.no'
 cta: ''
